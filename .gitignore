@@ -1,0 +1,6 @@
+*.lyx~
+*.lyx#
+.tmp.driveupload
+.tmp.drivedownload
+desktop.ini
+.DS_Store
