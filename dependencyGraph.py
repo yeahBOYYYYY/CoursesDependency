@@ -36,7 +36,7 @@ def create_dependency_graph(course_data: dict):
 
     # Save and show the graph
     html = net.generate_html()
-    with open("example.html", mode='w', encoding='utf-8') as fp:
+    with open("index.html", mode='w', encoding='utf-8') as fp:
             fp.write(html)
     display(HTML(html))
 
